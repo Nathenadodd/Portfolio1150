@@ -13,6 +13,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster&family=Open+Sans+Condensed:wght@700&display=swap">
 <link rel="stylesheet" href="main.css">
+</head>
+
+
 <!--header/nav section-->
 
     
@@ -72,7 +75,7 @@
                 <img src="./assets/Headshot.jpg" alt= "Headshot">
                 <h4>A Little About Me</h4>
                 <p>I am looking to transition from a 15 year career in Retail Management. 
-                    I am thoroughly excited about the new possibilities that await me during this change.
+                    I am excited about the new possibilities that await me during this change.
                      My extensive experience in retail allows me to thrive in a fast-paced, high-pressure environment and years of customer service have afforded me impeccable soft skills.
                      
                      <p>I am passionate about my team and doing the best job possible. Teaching and training are my favorite aspects of working with others.
@@ -93,11 +96,64 @@
     <!--portfolio section these should be clickable links-->
     <section id="Projects" class="jumbotron" style="background-image: url(./assets/blueandwhite.jpg);">
                
-           <a name="portfolio"></a>
-      <div class= "row projects"> 
-          <h5>Portfolio</h5>
+        <a name="portfolio"></a>
+        <h5>Portfolio</h5>
           
-        <div class="align-items-start">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class.active="carousel-indicators">
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href= "https://nathenadodd.github.io/StoreFront/"target="_blank"></a>
+            <img class="d-block w-100" src="./assets/Static Store Front thumbnail.JPG" alt="First slide">
+            <!-- <div class="carousel-caption">
+              <h3>Static StoreFront</h3>
+            <div> -->
+          </div>
+          <div class="carousel-item">
+            <a href= "https://github.com/jessetsmith/AccioVeggialis"target="_blank"></a>
+            <img class="d-block w-100" src="./assets/accio-veggialis-cover (2).png" alt="Second slide">
+            <!-- <div class="carousel-caption">
+              <h3>Accio Veggialis</h3>            
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <a href= "https://codepen.io/nathenadodd/pen/LYNNxrm"target="_blank"></a>
+            <img class="d-block w-100" src="assets/CSSCreatureStill.JPG" alt="Third slide">
+            <!-- <div class="carousel-caption">
+              <h3>Css Creature</h3>            
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <a href= "https://writersblockwebmvc20210129234540.azurewebsites.net"></a>
+            <img class="d-block w-100" target="_blank"src="./assets/Writer's Block Still.JPG" alt="Fourth slide">
+          </div>
+          <div class="carousel-item">
+            <a href="https://github.com/Nathenadodd/GoldBadgeChallenges"target="_blank"></a>
+            <img class="d-block w-100" src="./assets/Gold Badge Thumbnail.JPG" alt="Fifth slide">
+            <!-- <div class="carousel-caption">
+              <h3>Gold Badge</h3>            
+            </div> -->
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="clear"></div>
+
+       <div class= "row projects"> 
+         
+          
+         <div class="align-items-start">
             <div class="col">
              <!--list projects in order remember titles and img w/alt STATIC LAYOUT-->
             <h3>Static Layout</h3> 
@@ -107,8 +163,8 @@
        <div class="align-items-center">
             <div class="col">
                  <!--list projects in order remember titles and img w/alt BLUE BADGE TBA-->
-            <h3>Blue Badge</h3>
-           <li><a href="https://github.com/jessetsmith/AccioVeggialis"target="_blank"><img src="./assets/Blue Badge Thumbnail.JPG" alt= "Blue Badge Image" style="width: 200px; height: 150px;" class="rounded"></a></li>
+            <h3>AccioVeggialis</h3>
+           <li><a href="https://github.com/jessetsmith/AccioVeggialis"target="_blank"><img src="./assets/accio-veggialis-cover (2).png" alt= "Blue Badge Image" style="width: 200px; height: 150px;" class="rounded"></a></li>
         </div>
        </div>
 
@@ -122,8 +178,8 @@
         <div class="align-items-start">
             <div class="col">
                 <!--list projects in order remember titles and img w/alt RED BADGE TBA-->
-           <h3>Red Badge TBA</h3>
-           <img src="./assets/Red Badge Thumbnail.JPG" alt="Red Badge Image" style= "width: 200px; height: 150px;" class="rounded"></a></li>
+           <h3>Writer's Block</h3>
+           <li><a href= "https://writersblockwebmvc20210129234540.azurewebsites.net"target="_blank"><img src="./assets/Writer's Block Still.JPG" alt="Writer's Block" style= "width: 200px; height: 150px;" class="rounded"></a></li>
             </div>
         </div>           
                 
@@ -134,8 +190,8 @@
               <li><a href="https://github.com/Nathenadodd/GoldBadgeChallenges"target="_blank"><img src= "./assets/Gold Badge Thumbnail.JPG" alt="Gold Badge Image" style="width: 200px; height: 150px;"class="rounded"></a></li>
             </div>
         </div>           
-              
-            
+               
+             
             
       
     </div> 

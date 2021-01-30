@@ -138,12 +138,17 @@ h5 {
   font-family: beloved;
   font-size: 8em; 
   color: black;
-  padding-bottom: 2em;
+  padding-bottom: .5em;
   text-align: center;
   margin-right: 1em;
   
 }
-
+/* d-block w-100{
+  size: 50px
+} */
+/* .row{
+ float:right;
+} */
 .projects{
   padding: 5em;
 }
@@ -262,7 +267,7 @@ footer a:hover {
 
 #footer p {
   font-family: beloved;
-  font-size: 8em;
+  font-size: 5em;
   text-align: center;
 }
 
